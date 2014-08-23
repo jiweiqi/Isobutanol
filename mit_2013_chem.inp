@@ -57,7 +57,7 @@
 ! "Combustion and Pyrolysis of iso-Butanol: Experimental and Chemical Kinetic Modeling Study"
 !  Shamel S. Merchant (1), Everton Fernando Zanoelo (2), Raymond L. Speth (1), Michael R. Harper (1),(a), Kevin M. Van Geem (3) and William H. Green (1)
 ! (1) Department of Chemical Engineering, Massachusetts Institute of Technology
-! (2) 2Federal University of Paraná (UFPR), Curitiba, PR, Brazil 
+! (2) 2Federal University of Paran?(UFPR), Curitiba, PR, Brazil 
 ! (3) Laboratory for Chemical Technology, Universiteit Gent, Belgium
 ! Submitted to Combust. Flame
 
@@ -2787,7 +2787,7 @@ H2O2+H=H2O+OH                             	2.410E+13  0.00  3.970E+03
 H2O2+H=HO2+H2                             	4.820E+13  0.00  7.950E+03
 H2O2+O=OH+HO2                             	9.550E+06  2.00  3.970E+03
 
-! Hong et al., J. Phys. Chem. A  114 (2010) 5718–5727
+! Hong et al., J. Phys. Chem. A  114 (2010) 5718?727
 H2O2+OH=HO2+H2O                           	1.740E+12  0.00  3.180E+02
    DUPLICATE
 H2O2+OH=HO2+H2O                           	7.590E+13  0.00  7.270E+03
