@@ -73,7 +73,7 @@ C4H7OJ(8) C4H7OJ(12) C4H7OJ(13) C4H7OJ(16)
 !
 !********************** species involved in t-butanol submechanism *********************************
 !
-tC4H9OH tC4H8OH tC4H9O tC4H8OH-O2
+!tC4H9OH tC4H8OH tC4H9O tC4H8OH-O2
 ! 
 !********************** aromatic species involved **************************************************
 A1O A1OH  
