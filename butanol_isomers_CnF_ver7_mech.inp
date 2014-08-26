@@ -1,5 +1,5 @@
 !A comprehensive chemical kinetic combustion model for the four butanol isomers
-!S.M. Sarathy, S. Vranckx, K. Yasunaga, M. Mehl, P. O§wald, W.K. Metcalfe,
+!S.M. Sarathy, S. Vranckx, K. Yasunaga, M. Mehl, P. O¡ìwald, W.K. Metcalfe,
 !C. K. Westbrook, W.J. Pitz, K. Kohse-Hoinghaus, R.X. Fernandes, H.J Curran
 !  Accepted Combustion and Flame, Dec 2011
 !
@@ -164,7 +164,7 @@ end
 reactions
 !!!Start c4_54.8_releasereactions
 !  search "mani" for reactions removed from base chemistry
-!ref:3 parameter fit to hong et al.proc. of the comb. inst. 33 (2011) 309–316
+!ref:3 parameter fit to hong et al.proc. of the comb. inst. 33 (2011) 309?16
 h+o2<=>o+oh 9.65e+14 -0.262 1.62e+04
 
 
@@ -189,7 +189,7 @@ o+h+m<=>oh+m 4.714e+18 -1.000 0.000e+00
 h2/2.5/ h2o/12/ ar/.75/ co/1.5/ co2/2/ he/.75/ ch4/2/ c2h6/3/ 
 
 
-!ref: li ijck 36: 566–575, 2004
+!ref: li ijck 36: 566?75, 2004
 !h+oh+m<=>h2o+m 3.8e+22 -2.000 0.000e+00 !
 !ref:optimised to fit H2 and CH4 flames data
 h+oh+m<=>h2o+m 2.5e+22 -2.000 0.000e+00 !
@@ -702,7 +702,7 @@ hcoh+o2<=>co2+h2o 3.00e+13 0.0 0.0 !(e) 69
 
 
 
-!ref: jasper/klippenstein proc combust inst 32 (2009) 279–286
+!ref: jasper/klippenstein proc combust inst 32 (2009) 279?86
 ch3+ho2<=>ch3o+oh 1.000e+12 0.269 -6.875e+02
 ch3+ho2<=>ch4+o2 1.160e+05 2.230 -3.022e+03
 
@@ -886,7 +886,7 @@ c2h6+ch3<=>c2h5+ch4 5.480e-01 4.000 8.280e+03
 !Returned to original value
 c2h6+ho2<=>c2h5+h2o2 3.460e+01 3.610 1.692e+04
 
-!ref:Carstensen and Dean Proc Combust Inst 30 (2005) 995–1003
+!ref:Carstensen and Dean Proc Combust Inst 30 (2005) 995?003
 c2h6+ch3o2<=>c2h5+ch3o2h 1.940e+01 3.640 1.710e+04
 
 !ref:tsang and hampson, j. phys. chem. ref. data, 15:1087 (1986)
@@ -989,7 +989,7 @@ ch4+c2h5o2<=>ch3+c2h5o2h 1.810e+11 0.000 1.848e+04
 ch3oh+c2h5o2<=>ch2oh+c2h5o2h 1.810e+12 0.000 1.371e+04
 c2h5o2+ho2<=>c2h5o2h+o2 1.750e+10 0.000 -3.275e+03
 
-!ref:Carstensen and Dean Proc Combust Inst 30 (2005) 995–1003
+!ref:Carstensen and Dean Proc Combust Inst 30 (2005) 995?003
 c2h6+c2h5o2<=>c2h5+c2h5o2h 8.600e+00 3.760 1.720e+04
 c2h5o2h<=>c2h5o+oh 6.310e+14 0.000 4.230e+04
 
@@ -1127,7 +1127,7 @@ low / 1.14418E+58 -11.3 95912.49 /
 troe /0.00249 718.11861 6.08949 3780.01844 /
 
 
-!!ref: Gupte et al.,Proc Combust Inst 31 (2007) 167–174
+!!ref: Gupte et al.,Proc Combust Inst 31 (2007) 167?74
 !ch3cho+h<=>ch3co+h2 2.370e+13 0.000 3.642e+03
 
 !ref:Harding J. Phys. Chem., Vol. 114, No. 2, 2010
@@ -1144,7 +1144,7 @@ ch3cho+oh<=>ch3co+h2o 3.370e+12 0.000 -6.190e+02
 !ref:baulch et al., j. phys. chem. ref data, 21:411 (1992)
 ch3cho+o2<=>ch3co+ho2 3.010e+13 0.000 3.915e+04
 
-!ref: Gupte et al.,Proc Combust Inst 31 (2007) 167–174
+!ref: Gupte et al.,Proc Combust Inst 31 (2007) 167?74
 ch3cho+ch3<=>ch3co+ch4 7.080e-04 4.580 1.966e+03
 
 !ref:baulch et al., j. phys. chem. ref data, 21:411 (1992)
@@ -1742,7 +1742,7 @@ h+hccoh<=>h+ch2co 1.000e+13 0.000 0.000e+00
 !troe / 5.0000e-01 5.5000e+02 8.2500e+02 6.1000e+03 / !troe fall-off reaction
 !h2/2/ h2o/5/ co/2/ co2/3/ 
 
-!!ref:marinov IJCK 31: 183–220, 1999
+!!ref:marinov IJCK 31: 183?20, 1999
 !c2h5oh(+m)<=>c2h5+oh(+m) 2.400e+23 -1.620 9.954e+04
 !low / 5.1100e+85 -1.8800e+01 1.1877e+05 / 
 !troe / 5.0000e-01 6.5000e+02 8.0000e+02 1.0000e+15 / !troe fall-off reaction
@@ -1862,7 +1862,7 @@ c2h5oh+c2h5<=>sc2h4oh+c2h6 5.000e+10 0.000 1.040e+04
 !ref:curran, fit to NIST database
 !c2h4+oh<=>pc2h4oh 4.170e+20 -2.840 1.240e+03
 
-!!ref:marinov IJCK 31: 183–220, 1999
+!!ref:marinov IJCK 31: 183?20, 1999
 !sc2h4oh+m<=>ch3cho+h+m 1.000e+14 0.000 2.500e+04
 !!ref:WKM calculation
 !ch3cho+h<=>sc2h4oh 1.38E+09 1.345 9.53E+03
@@ -2323,7 +2323,7 @@ c3h8+o2cho<=>nc3h7+ho2cho 5.520e+04 2.550 1.648e+04
 c3h8+o2cho<=>ic3h7+ho2cho 1.475e+04 2.600 1.391e+04
 
 !HENRY ref?
-!ref:Curran Inc. Int J Chem Kinet 38: 250–275, 2006
+!ref:Curran Inc. Int J Chem Kinet 38: 250?75, 2006
 !h+c3h6<=>ic3h7 2.640e+13 0.000 2.160e+03
 h+c3h6<=>ic3h7 4.240E+11 0.51 1.230E+03
 !ic3h7  = h+c3h6       1.111E+12   0.48  3.676E+04 
@@ -2343,7 +2343,7 @@ ic3h7+o<=>ch3coch3+h 4.818e+13 0.000 0.000e+00
 ic3h7+o<=>ch3cho+ch3 4.818e+13 0.000 0.000e+00
 
 !HENRY ref??
-!ref:ref:Curran Inc. Int J Chem Kinet 38: 250–275, 2006
+!ref:ref:Curran Inc. Int J Chem Kinet 38: 250?75, 2006
 ch3+c2h4<=>nc3h7 1.760E+04 2.48 6.130E+03
 h+c3h6<=>nc3h7 2.500E+11   0.51  2.620E+03
 !nc3h7 = ch3+c2h4      9.247E+10   0.87  3.046E+04 
@@ -4465,7 +4465,7 @@ ch3o2+tc4h9<=>ch3o+tc4h9o 7.000e+12 0.000 -1.000e+03
 ic4h9<=>tc4h9 3.560e+10 0.880 3.460e+04
 !rev/ 7.026e+08 1.459 3.889e+04 /
 
-!ref:curran Int J Chem Kinet 38:250–275, 2006
+!ref:curran Int J Chem Kinet 38:250?75, 2006
 ic4h8+h<=>ic4h9 6.250e+11 0.510 2.620e+03
 c3h6+ch3<=>ic4h9 1.890e+03 2.670 6.850e+03
 h+ic4h8<=>tc4h9 1.060e+12 0.510 1.230e+03
@@ -4641,7 +4641,7 @@ ic4h9o+o<=>ic3h7cho+oh 6.000e+12 0.000 0.000e+00
 ic4h9o+h<=>ic3h7cho+h2 1.990e+13 0.000 0.000e+00
 
 
-!ref:Curran Inc. Int J Chem Kinet 38: 250–275, 2006
+!ref:Curran Inc. Int J Chem Kinet 38: 250?75, 2006
 ic3h7cho+h<=>ic4h9o 1.000E+12 0.00 5.860E+03
 ch2o+ic3h7<=>ic4h9o 5.000E+10 0.00 2.330E+03
 
